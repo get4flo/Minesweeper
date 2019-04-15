@@ -113,10 +113,11 @@ public class Minesweeper3 {
 		String size="";
 		
 		if(args.length<1) {
-			System.out.println("Größe eigeben(int):");
+			/*System.out.println("Größe eigeben(int):");
 			Scanner leser = new Scanner (System.in);
 			size = leser.nextLine();
-			leser.close();
+			leser.close();*/
+			size += 5;
 		}
 		else{
 			size += args[0];
